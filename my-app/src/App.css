@@ -1,0 +1,266 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  user-select: none;
+}
+
+.mobile-nav {
+  min-height: 100vh;
+}
+
+.mobile-navbar {
+  position: fixed;
+  width: 100vw;
+  background-color: #589BA4;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  height: 8vh;
+  border-bottom: 1px solid white;
+}
+
+.mobile-navbar li {
+  list-style: none;
+}
+
+.mobile-navbar-menu img {
+  width: auto;
+  height: 40px;
+  cursor: pointer;
+}
+
+.mobile-navbar-brand {
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: flex;
+  align-items: center;
+}
+
+.mobile-navbar-brand img {
+  width: auto;
+  height: 50px;
+}
+
+/* NAV CONTENT */
+.mobile-navbar-content {
+  border-top: 1px solid white;
+  height: 92vh;
+  background-color: #589BA4;
+  visibility: hidden;
+  max-width: 0;
+  transition: all 0.2s;
+  display: flex;
+  position: fixed;
+  top: calc(8vh + 10px);
+  z-index: 2;
+  flex-wrap: wrap;
+}
+
+.mobile-navbar-content.open {
+  visibility: visible;
+  max-width: 70%;
+}
+
+.mobile-navbar-link {
+  list-style: none;
+  font-size: 25px;
+  font-weight: 600;
+  opacity: 0;
+  transition: all 0.2s;
+  flex: 100%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding-left: 20px;
+}
+
+.mobile-navbar-link:hover {
+  background-color: #4d9099;
+}
+
+.mobile-navbar-link.open {
+  opacity: 1;
+}
+
+.mobile-navbar-content span {
+  flex: 100%;
+}
+
+/* MAIN CONTENT */
+
+.main-background {
+  height: 100vh;
+  width: 100wv;
+  padding-top: 8vh;
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.main-background img {
+  z-index: -1;
+  position: relative;
+  top: -110vh;
+  right: 40%;
+  height: 70vh;
+  width: auto;
+}
+
+.blue-bg {
+  background: linear-gradient(rgba(0, 102, 204, 0), #25464D, #25464D);
+  height: 100vh;
+  position: relative;
+  top: 10vh;
+}
+
+.content {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+}
+
+.content > * {
+  margin: 20px 0;
+}
+
+.content h2 {
+  text-align: center;
+  font-size: 30px;
+
+}
+
+.content p {
+  text-align: center;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.btns button {
+  width: 35vw;
+  height: 7vh;
+  background-color: #1094A7;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btns button:hover {
+  background-color: #199aad;
+}
+
+.btns button h3 {
+  padding-left: 8px;
+  font-size: 22px;
+}
+
+.btns button img {
+  width: auto;
+  height: 80px;
+  position: relative;
+  right: 0;
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: #1094A7;
+  padding: 40px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  color: white;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.footer-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 5px;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.subscribe-form input {
+  background-color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: black;
+}
+
+.subscribe-button {
+  background-color: #1BD3F2;
+  border: none;
+  padding: 10px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+/* 614 */
+
+@media only screen and (min-width: 416px) {
+
+  .main-background img {
+    top: -100vh;
+    right: 0;
+    /* height: auto;
+    width: 100%; */
+  }
+
+}
+
+@media only screen and (min-width: 675px) {
+  .main-background img {
+    top: -100vh;
+    right: 0;
+    height: auto;
+    width: 100%;
+  }
+
+  /* .footer-content {
+    max-width: 600px;
+    margin: 0 auto;
+    border: 2px solid red;
+  } */
+}
