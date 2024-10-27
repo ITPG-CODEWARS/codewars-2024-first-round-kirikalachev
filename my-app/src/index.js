@@ -10,7 +10,7 @@ import Train from './secondary-pages/Train';
 import Blog from './secondary-pages/Blog';
 import Contacts from './secondary-pages/Contacts';
 import History from './secondary-pages/History';
-import Technology from './secondary-pages/Technology';
+import Article from './secondary-pages/Article';
 
 import Layout from './layout';
 
@@ -25,7 +25,7 @@ const router = createBrowserRouter([
       { path: '/blog', element: <Blog /> },
       { path: '/contacts', element: <Contacts /> },
       { path: '/history', element: <History /> },
-      { path: '/technology', element: <Technology /> },
+      { path: '/article', element: <Article /> },
       { path: '/train', element: <Train /> },
     ],
   },

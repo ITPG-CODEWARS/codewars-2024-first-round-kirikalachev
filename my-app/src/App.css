@@ -261,11 +261,11 @@ main {
 
 } */
 
-@media only screen and (min-width: 950px) {
+@media only screen and (min-width: 960px) {
   .main-background img {
     top: -100vh;
     right: 0;
     height: auto;
-    width: 100%;
+    width: 120%;
   }
 }

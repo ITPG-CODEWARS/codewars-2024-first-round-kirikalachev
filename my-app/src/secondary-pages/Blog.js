@@ -1,13 +1,20 @@
 import './blog/Blog.css';
 import Banner from './blog/banner.webp';
+import { useNavigate } from 'react-router-dom';
+
 
 function Blog() {
-    
+        
+    const navigate = useNavigate();
+
+    const handleNavigate = () => {
+        navigate('/article');
+    }
     return (
     <div className='blog-elements'>
      <h2>Recent</h2>
      
-     <div className='blog-element'>
+     <div className='blog-element' onClick={handleNavigate}>
         <img src={Banner} alt='img'></img>
         <div className='text-info'>
         <h2>
@@ -27,7 +34,7 @@ function Blog() {
         </div>
      </div>
 
-     <div className='blog-element'>
+     <div className='blog-element' onClick={handleNavigate}>
         <img src={Banner} alt='img'></img>
         <div className='text-info'>
         <h2>
