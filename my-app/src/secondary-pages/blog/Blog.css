@@ -1,0 +1,42 @@
+.blog-elements {
+    padding-top: calc(12vh + 10px);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.blog-elements > h2 {
+    color: black;
+    font-size: 30px;
+}
+
+.blog-elements > * {
+    flex: 100%;
+    margin: 5px 20px;
+}
+
+.blog-element {
+    background-color: #589BA4;
+    width: 90vw;
+    height: max-content;
+    overflow: hidden;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.blog-element img {
+    height: auto;
+    width: 100%;
+}
+
+.blog-element h2 {
+    padding: 8px;
+    font-size: 20px;
+}
+
+.blog-element span {
+    display: flex;
+    width: calc(100%-20px);
+    justify-content: space-between;
+    padding: 0 10px 10px 10px;
+}

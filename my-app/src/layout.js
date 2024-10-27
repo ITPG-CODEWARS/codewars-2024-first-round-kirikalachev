@@ -9,7 +9,7 @@ import './App.css';
 
 function Layout() {
   return (
-    <div>
+    <div className='App'>
       <NavContent />
       <main>
         <Outlet /> {/* This will render the routed component */}

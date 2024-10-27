@@ -38,9 +38,7 @@ function MainContent() {
   
         <div className='main-background'>
           <div className='blue-bg'></div>
-          {/* <div> */}
             <img src={Train} alt=' '></img>
-          {/* </div> */}
         </div>
       </div>
       

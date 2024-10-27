@@ -6,11 +6,17 @@
   user-select: none;
 }
 
-.mobile-nav {
+body {
+  overflow-x: hidden;
+  background-color: #DEF3F2;
+}
+
+main {
   min-height: 100vh;
 }
 
 .mobile-navbar {
+  z-index: 2;
   position: fixed;
   width: 100vw;
   background-color: #589BA4;
