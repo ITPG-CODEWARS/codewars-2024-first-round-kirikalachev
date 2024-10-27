@@ -16,13 +16,19 @@ function NavContent() {
     setIsOpen(!isOpen);
   };
 
+  // Navigate and close menu
+  const handleLinkClick = (path) => {
+    navigate(path);
+    setIsOpen(false); // Close the menu after clicking
+  };
+
   return (
     <nav className='mobile-nav'>
       <ul className='mobile-navbar'>
         <li className='mobile-navbar-menu' onClick={toggleMenu}>
           <img src={isOpen ? CloseIcon : Menu} alt={isOpen ? 'Close' : 'Menu'} />
         </li>
-        <li className='mobile-navbar-brand' onClick={() => navigate('/')}> {/* Fix navigation */}
+        <li className='mobile-navbar-brand' onClick={() => handleLinkClick('/')}>
           <img src={Logo} alt='Logo' />
           <h1>RAILSPY</h1>
         </li>
@@ -33,14 +39,14 @@ function NavContent() {
           <li
             className={`mobile-navbar-link ${isOpen ? 'open' : ''}`}
             key={index}
-            onClick={() => navigate(`/${item.toLowerCase()}`)} // Dynamic navigation based on item
+            onClick={() => handleLinkClick(`/${item.toLowerCase()}`)}
           >
             <span>{item}</span>
           </li>
         ))}
+        <span></span>        
         <span></span>
-        <span></span>
-        <span></span>
+        <span></span>        <span></span>        <span></span>        <span></span>
 
       </ul>
     </nav>

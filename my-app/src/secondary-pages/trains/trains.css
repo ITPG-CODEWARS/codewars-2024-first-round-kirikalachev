@@ -6,7 +6,8 @@
 }
 
 .train-elements1 > h2 {
-    color: black;
+    color: #163036;
+
     font-size: 30px;
 }
 
@@ -24,6 +25,7 @@
     cursor: pointer;
     padding-bottom: 15px;
     margin-bottom: 15px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
 }
 
 .train-element1 img {

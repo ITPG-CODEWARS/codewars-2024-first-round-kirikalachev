@@ -12,6 +12,8 @@ function Footer() {
             <li> Third link </li>
             <li> Fourth link </li>
           </ul>
+          <br></br><hr></hr><br></br>
+          <h2 className="footer-title">SUBSCRIBE FOR OUR NEWSLETTER</h2>
           <div className="subscribe-form">
             <input type="email" placeholder="Enter your email" />
             <button className="subscribe-button">Subscribe</button>

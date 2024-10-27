@@ -5,21 +5,27 @@ function Train() {
     
     return (
     <div className="train-element">
-        <img src={Banner} alt=' '></img>
+         <img src={Banner} alt=' '></img>
         <h2>
-            The Evolution of Trains: From Steam Engines to High-Speed Innovation
+        The Mallard (LNER Class A4 4468 Mallard)
         </h2>
         
         <p>
-            The journey of trains from the industrial age to today’s high-speed marvels showcases humanity's continuous pursuit of progress. The story began in the early 19th century with the invention of the steam locomotive, a breakthrough pioneered by engineers like George Stephenson. His famous Rocket, introduced in 1830, brought unprecedented speed to land transport, moving people and goods far faster than horse-drawn methods. Railways quickly spread across Europe and North America, connecting cities, fueling economic growth, and opening up new frontiers. By the mid-1800s, transcontinental railways like the one completed in the United States in 1869 created critical links that spurred industrialization and urbanization, forming the backbone of modern infrastructure.
+            The Mallard (LNER Class A4 4468) is a famous British steam locomotive, celebrated for setting the world speed record for steam locomotives.<br></br>
+            Built by the London and North Eastern Railway (LNER) in 1938, this streamlined locomotive was part of the Class A4 series, designed by Sir Nigel Gresley.<br></br>
+            Known for their elegant, aerodynamic design, these locomotives were built for speed and long-distance travel, primarily running on express passenger services along the East Coast Main Line in the UK.<br></br> <br></br>
 
-            The early 20th century ushered in a shift to cleaner, more efficient power sources with diesel and electric locomotives replacing steam engines. Diesel trains, which offered reliability and lower operational costs, became the standard for long-distance freight and passenger services. Electric trains soon dominated urban and commuter rail networks in Europe and Japan, offering quieter, emissions-free travel that contributed to healthier and more livable cities.
+            The Mallard's claim to fame came on July 3, 1938, when it reached an incredible 126 miles per hour (203 km/h) on a slight downhill stretch near Grantham, Lincolnshire.<br></br>
+            This record remains unbeaten by any steam locomotive to this day.<br></br>
+            The Mallard is instantly recognizable by its striking blue livery and streamlined shape, designed to reduce air resistance and maximize speed.<br></br>
 
-            A revolutionary leap came in 1964 with Japan's Shinkansen, the world’s first high-speed "bullet train." Capable of reaching 130 mph, the Shinkansen slashed travel times between major cities like Tokyo and Osaka, making train travel a competitive alternative to flying. Its success led other countries, including France and Germany, to develop their own high-speed rail systems, such as the TGV and ICE, reaching speeds over 200 mph and enabling faster, more efficient intercity travel.
-
-            Today, as climate change drives demand for greener transport, modern railways play a vital role in sustainable travel. Innovations like magnetic levitation (maglev) technology allow trains to float above the tracks, minimizing friction and enabling speeds of up to 375 mph, while futuristic concepts like the Hyperloop aim to transport passengers at over 600 mph in vacuum tubes. These advancements promise to make trains a cleaner, faster, and more integral part of future global transportation, blending historic roots with cutting-edge technology to meet the needs of a connected, environmentally conscious world.
+            Today, the Mallard is preserved and displayed at the National Railway Museum in York, England, where it remains a popular attraction and a symbol of British engineering excellence in the steam era.
         </p>
+            
     </div>
+       
+
+
     );
   }
 

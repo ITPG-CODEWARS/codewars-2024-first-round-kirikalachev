@@ -9,6 +9,7 @@
 }
 
 .train-element img {
+    border-radius: 15px;
     width: 100%;
     height: auto;
 }
@@ -19,7 +20,7 @@
     margin-top: 10px;
 }
 
-.train-element > p {
+.train-element p {
     color: #163036;
     font-size: 22px;
     margin-bottom: 20px;

@@ -6,7 +6,7 @@
 }
 
 .blog-elements > h2 {
-    color: black;
+    color: #163036;
     font-size: 30px;
 }
 
@@ -22,6 +22,7 @@
     overflow: hidden;
     border-radius: 15px;
     cursor: pointer;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
 }
 
 .blog-element img {
