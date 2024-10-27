@@ -6,6 +6,7 @@ import MainContent from './MainContent';
 
 
 import Trains from './secondary-pages/Trains';
+import Train from './secondary-pages/Train';
 import Blog from './secondary-pages/Blog';
 import Contacts from './secondary-pages/Contacts';
 import History from './secondary-pages/History';
@@ -25,6 +26,7 @@ const router = createBrowserRouter([
       { path: '/contacts', element: <Contacts /> },
       { path: '/history', element: <History /> },
       { path: '/technology', element: <Technology /> },
+      { path: '/train', element: <Train /> },
     ],
   },
 ]);

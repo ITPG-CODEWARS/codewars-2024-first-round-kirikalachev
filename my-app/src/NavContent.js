@@ -7,7 +7,7 @@ import { useNavigate } from 'react-router-dom';
 
 function NavContent() {
   const navigate = useNavigate();
-  const navContent = ['Home', 'Trains', 'History', 'Technology', 'Blog', 'Contacts'];
+  const navContent = ['Trains', 'History', 'Blog', 'Contacts'];
   
   const [isOpen, setIsOpen] = useState(false);
 
@@ -38,6 +38,10 @@ function NavContent() {
             <span>{item}</span>
           </li>
         ))}
+        <span></span>
+        <span></span>
+        <span></span>
+
       </ul>
     </nav>
   );

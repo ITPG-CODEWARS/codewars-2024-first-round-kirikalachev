@@ -1,10 +1,10 @@
-import './history/history.css';
-import Banner from './history/banner.png';
+import './train/train.css';
+import Banner from './train/train.png';
 
-function History() {
+function Train() {
     
     return (
-    <div className="history-article">
+    <div className="train-element">
         <img src={Banner} alt=' '></img>
         <h2>
             The Evolution of Trains: From Steam Engines to High-Speed Innovation
@@ -23,4 +23,4 @@ function History() {
     );
   }
 
-  export default History;
+  export default Train;

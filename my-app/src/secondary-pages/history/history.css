@@ -1,0 +1,26 @@
+.history-article {
+    padding-top: calc(12vh + 10px);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    width: 90%;
+    margin: auto;
+}
+
+.history-article img {
+    width: 100%;
+    height: auto;
+}
+
+.history-article > h2 {
+    color: #163036;
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+.history-article > p {
+    color: #163036;
+    font-size: 22px;
+    margin-bottom: 20px;
+}

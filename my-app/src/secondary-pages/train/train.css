@@ -1,0 +1,26 @@
+.train-element {
+    padding-top: calc(12vh + 10px);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    width: 90%;
+    margin: auto;
+}
+
+.train-element img {
+    width: 100%;
+    height: auto;
+}
+
+.train-element > h2 {
+    color: #163036;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.train-element > p {
+    color: #163036;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
