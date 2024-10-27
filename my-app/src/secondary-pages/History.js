@@ -5,7 +5,9 @@ function History() {
     
     return (
     <div className="history-article">
-        <img src={Banner} alt=' '></img>
+        <div className='history-ímg'>
+            <img src={Banner} alt=' '></img>
+        </div>
         <h2>
             The Evolution of Trains: From Steam Engines to High-Speed Innovation
         </h2>

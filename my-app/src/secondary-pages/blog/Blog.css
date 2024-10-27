@@ -40,4 +40,43 @@
     width: calc(100%-20px);
     justify-content: space-between;
     padding: 0 10px 10px 10px;
+    color: #272727;
+}
+
+.blog-element span p {
+    color: #9dc5ca;
+}
+
+.article-description {
+    display: none;
+}
+
+@media only screen and (min-width: 1020px) {
+    .blog-element {
+        height: 40vh;
+        overflow: hidden;
+        display: flex;
+    }
+
+    .blog-element img {
+        height:100%;
+        width: auto;
+        display: inline-block;
+    }
+
+    .text-info {
+        margin-top: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .article-description {
+        display: block;
+        padding: 10px;
+        margin-bottom: -5px;
+        margin-top: -15px;
+
+    }
+
 }

@@ -98,9 +98,13 @@ main {
 
 /* MAIN CONTENT */
 
+.main-content {
+  width: 100%;
+}
+
 .main-background {
   height: 100vh;
-  width: 100wv;
+  width: 100%;
   padding-top: 8vh;
   position: absolute;
   top: 0;
@@ -246,18 +250,8 @@ main {
 
 /* 614 */
 
-@media only screen and (min-width: 416px) {
+/* @media only screen and (min-width: 416px) {
 
-  .main-background img {
-    top: -100vh;
-    right: 0;
-    /* height: auto;
-    width: 100%; */
-  }
-
-}
-
-@media only screen and (min-width: 675px) {
   .main-background img {
     top: -100vh;
     right: 0;
@@ -265,9 +259,13 @@ main {
     width: 100%;
   }
 
-  /* .footer-content {
-    max-width: 600px;
-    margin: 0 auto;
-    border: 2px solid red;
-  } */
+} */
+
+@media only screen and (min-width: 950px) {
+  .main-background img {
+    top: -100vh;
+    right: 0;
+    height: auto;
+    width: 100%;
+  }
 }

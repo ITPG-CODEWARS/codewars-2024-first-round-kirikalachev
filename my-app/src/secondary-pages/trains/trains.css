@@ -7,7 +7,6 @@
 
 .train-elements1 > h2 {
     color: #163036;
-
     font-size: 30px;
 }
 
@@ -18,7 +17,7 @@
 
 .train-element1 {
     background-color: #589BA4;
-    width: 90vw;
+    width: 80vw;
     height: max-content;
     overflow: hidden;
     border-radius: 15px;
@@ -53,4 +52,39 @@
     border: none;
     font-size: 20px;
     border-radius: 15px;
+}
+
+@media only screen and (min-width: 850px) {
+    .train-elements1 {
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+
+    .train-elements1 > * {
+        flex: none;
+        width: 40vw;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 1360px) {
+
+    .train-elements1 {
+        /* width: 70%; */
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+
+    .train-elements1 > * {
+        flex: none;
+        width: 25vw;
+        height: auto;
+    }
+
+    .train-element1 .stats {
+        font-size: 18px;
+    }
+    
 }
