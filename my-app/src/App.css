@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Gabarito:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Gabarito:wght@400..900&family=Karantina:wght@300;400;700&display=swap');
+
+
 * {
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Gabarito", serif;
   color: white;
   user-select: none;
 }
@@ -110,15 +114,9 @@ main {
   top: 0;
   overflow: hidden;
   z-index: -1;
-}
-
-.main-background img {
-  z-index: -1;
-  position: relative;
-  top: -110vh;
-  right: 40%;
-  height: 70vh;
-  width: auto;
+  background-image: url("./train.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .blue-bg {
@@ -142,8 +140,8 @@ main {
 
 .content h2 {
   text-align: center;
-  font-size: 30px;
-
+  font-size: 38px;
+  font-family: "Karantina", serif;
 }
 
 .content p {
@@ -158,7 +156,8 @@ main {
 
 .btns button {
   width: 35vw;
-  height: 7vh;
+  height: 9vh;
+  padding: 10px;
   background-color: #1094A7;
   border: none;
   border-radius: 10px;
@@ -168,6 +167,9 @@ main {
   box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
   cursor: pointer;
   transition: all 0.2s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .btns button:hover {
@@ -181,7 +183,7 @@ main {
 
 .btns button img {
   width: auto;
-  height: 80px;
+  height: 60px;
   position: relative;
   right: 0;
 }
@@ -248,24 +250,19 @@ main {
   cursor: pointer;
 }
 
-/* 614 */
+@media only screen and (min-width: 960px) {
 
-/* @media only screen and (min-width: 416px) {
-
-  .main-background img {
-    top: -100vh;
-    right: 0;
-    height: auto;
-    width: 100%;
+  .content h2 {
+    font-size: 50px;
   }
 
-} */
+  .btns {
+    margin: auto;
+    width: 52%;
+    justify-content: space-between;
+  }
 
-@media only screen and (min-width: 960px) {
-  .main-background img {
-    top: -100vh;
-    right: 0;
-    height: auto;
-    width: 120%;
+  .btns button {
+    width: 22vw;
   }
 }
